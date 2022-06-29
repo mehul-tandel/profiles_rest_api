@@ -122,4 +122,5 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+# overriding django's built in user model by our custom email based user model
 AUTH_USER_MODEL = 'profiles_api.UserProfile'
